@@ -1,10 +1,10 @@
 # Spring-Rest-Jpa-Postgres-Student-Api
 
-# Get Request
+## Get Request
 
     curl --location --request GET 'http://localhost:8080/api/v1/student'
 
-# Post Request
+## Post Request
 
     curl --location --request POST 'http://localhost:8080/api/v1/student' \
     --header 'Content-Type: application/json' \
@@ -14,7 +14,7 @@
         "dob": "1995-12-17"
     }'
 
-# Put Request
+## Put Request
 
     curl --location --request PUT 'http://localhost:8080/api/v1/student/id?name=Lucas&email=lucas.favero@gmail.com' \
     --data-raw ''
